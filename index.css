@@ -35,10 +35,29 @@ body{
 }
 
 .intro {
+  display: flex;
+  justify-content: center;
+  margin-top: 15%;
+  padding-bottom: 0%;
+}
+
+.Hi{
+  width: 18ch;
+  font-family: monospace;
   font-size: 50px;
-  padding-top: 10%;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: print 2s steps(18) ;
+}
+
+ @keyframes print {
+  from{
+    width: 0;
+  }
+
 }
 
 .tagline{
   font-size: 35px;
+  font-family: monospace;
 }
