@@ -1,11 +1,28 @@
-html {
-  font-size: 12px;
+html, body{
+  height: 100%;
 }
 
 body{
+  font-size: 12px;
   margin-top: 90px;
 	text-align: center;
-  color: #0277BD;
+  color: #181152;
+  /* background-color: #42f5f2; */
+  background: linear-gradient(45deg, #004FF9, #FFF94C);
+  background-size: 200% 200%;
+  animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%
+  }
 }
 
 .icons-social i {
@@ -14,11 +31,12 @@ body{
 }
 
 .icons-social a {
-  color: #0277BD;
+  color: #181152;
 }
 
 .intro {
   font-size: 50px;
+  padding-top: 10%;
 }
 
 .tagline{
