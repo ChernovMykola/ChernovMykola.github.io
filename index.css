@@ -1,3 +1,6 @@
+html {
+  height: 85%;
+}
 
 body{
   margin: 0;
@@ -9,110 +12,11 @@ body{
   animation: gradient 10s ease infinite;
 }
 
-nav{
-  position: fixed;
-  top: 0;
-  width: 100%;
-  padding: 10px 25px;
-  text-align: right;
-}
-
-nav a{
-  position: relative;
-  margin: 5px;
-  font-size: 1.5em;
-  display: inline-block;
-}
-
-section{
-   position: relative;
-   width: 100%;
-   height: 750px;
-}
-
-img{
-  position: absolute;
-  top: 5%;
-  left: 1%;
-  width: 30%;
-  height: 85%;
-}
-
 .intro{
   display: flex;
   justify-content: center;
   margin-top: 15%;
   padding-bottom: 0%;
-}
-
-#home{
-  color: #181152;
-}
-
-#aboutMe{
-  font-family: 'Roboto Mono', monospace;
-  display: flex;
-  margin: 10px;
-  text-align: right;
-  overflow: hidden
-}
-
-#myHobby{
-  font-family: 'Roboto Mono', monospace;
-  padding-top: 3%;
-  display: flex;
-  justify-content: center;
-  font-size: 190%;
-}
-
-.programming{
-  color: white;
-  border: 1px solid white;
-  padding: 1%;
-  margin: 1%;
-  width: 33.3%;
-  border-radius: 5px;
-  height: 75%;
-  background-color: #6F7AF5;
-  background-image: url(1625363276_14-phonoteka-org-p-oboi-minimalizm-programmirovanie-oboi-kras-14.jpeg);
-  background-position-x: center;
-  background-size: cover;
-}
-
-.run{
-  border: 1px solid white;
-  color: white;
-  padding: 1%;
-  margin: 1%;
-  width: 33.3%;
-  border-radius: 5px;
-  height: 75%;
-  background-color: #6F7AF5;
-  background-image: url(1648233698_32-abrakadabra-fun-p-fon-dlya-bega-42.jpeg);
-  background-position-x: center;
-background-size: cover;
-}
-
-.football{
-  border: 1px solid white;
-  color: white;
-  padding: 1%;
-  margin: 1%;
-  width: 33.3%;
-  border-radius: 5px;
-  height: 75%;
-  background-color: #6F7AF5;
-  background-image: url(135957-futbol-paloun-cel-sportivnyj_inventar-futbolnyj-360x640.jpeg);
-  background-position-x: center;
-background-size: cover;
-}
-
-.textAboutMe{
-  padding-top: 10%;
-  margin-left: 35%;
-  margin-right: 1%;
-  font-size: 20px;
-  word-wrap: break-word;
 }
 
 @keyframes gradient {
